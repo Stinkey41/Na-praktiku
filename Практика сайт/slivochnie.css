@@ -1,0 +1,510 @@
+.blok1{ 
+    position: relative;
+    margin-bottom: 5px; 
+    width: 1460px; 
+    height: 30px;
+    padding: 10px; 
+    background: #CF2222;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+.one { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 42%;
+}
+
+.two { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 17%;
+}
+
+.three { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+
+.sidebar{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 15px 0px;
+    gap: 27px;
+
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    left: 12px;
+    top: 196px;
+
+    background: #CF2222;
+    border-radius: 15px;
+    
+}
+
+.four{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.five{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.six{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.seven{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.eight{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.nine{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.ten{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.eleven{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+    /*что это за страница(раздел товаров слева)*/
+#content1{
+    position: absolute;
+    width: 1190px;
+    height: 1350px;
+    left: 300px;
+    top: 200px;
+}
+
+    /*что это за раздел*/
+.slivochnie{
+    position: absolute;
+    left: 385px;
+    top: 0px;
+    
+
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+    /*карточки роллов, в каждом по 3 детали(картинка, текст и цена)*/
+.Bek{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.Bek2{
+    position: absolute;
+    left: 95px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.Bek3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 100px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}  
+
+
+
+.krev{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.krev2{
+    position: absolute;
+    left: 357px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.krev3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 370px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.kur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  590px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.kur2{
+    position: absolute;
+    left: 635px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.kur3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 638px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.los{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  865px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.los2{
+    position: absolute;
+    left: 910px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.los3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 915px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.ugor{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.ugor2{
+    position: absolute;
+    left: 110px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.ugor3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 100px;
+    top: 535px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+} 
+
+
+.mid{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.mid2{
+    position: absolute;
+    left: 360px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.mid3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 365px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.ogur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  590px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.ogur2{
+    position: absolute;
+    left: 635px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.ogur3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 640px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.snezhkrab{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  860px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.snezhkrab2{
+    position: absolute;
+    left: 870px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.snezhkrab3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 910px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
