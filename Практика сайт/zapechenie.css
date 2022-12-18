@@ -1,0 +1,775 @@
+.blok1{ 
+    position: relative;
+    margin-bottom: 5px; 
+    width: 1460px; 
+    height: 30px;
+    padding: 10px; 
+    background: #CF2222;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+.one { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 42%;
+}
+
+.two { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 17%;
+}
+
+.three { 
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 24px; 
+    border: 0;
+    box-align: center;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+
+.sidebar{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 15px 0px;
+    gap: 27px;
+
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    left: 12px;
+    top: 196px;
+
+    background: #CF2222;
+    border-radius: 15px;
+    
+}
+
+.four{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.five{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.six{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.seven{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.eight{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.nine{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.ten{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+.eleven{
+    color: #ffffff;
+    background: #CF2222; 
+    font-size: 20px; 
+    border: 0;
+}
+
+    /*что это за страница(раздел товаров слева)*/
+#content1{
+    position: absolute;
+    width: 1190px;
+    height: 1200px;
+    left: 300px;
+    top: 200px;
+}
+
+    /*что это за раздел*/
+.zapech{
+    position: absolute;
+    left: 385px;
+    top: 0px;
+    
+
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+    /*карточки роллов, в каждом по 3 детали(картинка, текст и цена)*/
+.zKur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.zKur2{
+    position: absolute;
+    left: 90px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zKur3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 95px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}  
+
+
+
+.zKKM{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zKKM2{
+    position: absolute;
+    left: 335px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zKKM3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 365px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zMid{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  590px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zMid2{
+    position: absolute;
+    left: 630px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zMid3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 637px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zesar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  865px;
+    top: 80px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zesar2{
+    position: absolute;
+    left: 925px;
+    top: 215px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zesar3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 910px;
+    top: 270px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.kioto{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.kioto2{
+    position: absolute;
+    left: 115px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.kioto3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 97px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}  
+
+
+.zLkr{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zLkr2{
+    position: absolute;
+    left: 350px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zLkr3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 365px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zBek{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  590px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zBek2{
+    position: absolute;
+    left: 635px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zBek3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 638px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zkrab{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  860px;
+    top: 340px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.zkrab2{
+    position: absolute;
+    left: 908px;
+    top: 480px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zkrab3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 906px;
+    top: 530px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.kurper{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 600px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.kurper2{
+    position: absolute;
+    left: 80px;
+    top: 740px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.kurper3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 97px;
+    top: 795px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+} 
+
+
+.krev{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 600px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.krev2{
+    position: absolute;
+    left: 356px;
+    top: 740px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.krev3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 365px;
+    top: 795px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+} 
+
+
+.losos{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  590px;
+    top: 600px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.losos2{
+    position: absolute;
+    left: 630px;
+    top: 740px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.losos3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 635px;
+    top: 795px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+} 
+
+
+.uglos{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  860px;
+    top: 600px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.uglos2{
+    position: absolute;
+    left: 900px;
+    top: 740px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.uglos3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 905px;
+    top: 790px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zkal{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  50px;
+    top: 865px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.zkal2{
+    position: absolute;
+    left: 73px;
+    top: 1010px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zkal3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 95px;
+    top: 1060px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+.zfil{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left:  320px;
+    top: 865px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+
+.zfil2{
+    position: absolute;
+    left: 335px;
+    top: 1010px;
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.zfil3{
+    box-sizing: border-box;
+
+    text-align: center;
+    line-height: 25px;
+    
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 365px;
+    top: 1060px;
+
+    background: #FBF4F4;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+
+
